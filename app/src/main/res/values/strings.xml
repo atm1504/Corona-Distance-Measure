@@ -3,4 +3,6 @@
     <string name="distane_warning_app">Distance Warning App</string>
     <string name="available_bluetooths">Bluetooth Devices Near Me</string>
     <string name="warning_bluetooths">Devices less than 1 meter distance</string>
+    <string name="error">Error</string>
+    <string name="not_supported">Your device donot support Bluetooth. This app can\'t be use in this device.</string>
 </resources>
