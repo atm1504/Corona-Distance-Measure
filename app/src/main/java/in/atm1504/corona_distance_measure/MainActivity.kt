@@ -2,7 +2,7 @@ package `in`.atm1504.corona_distance_measure
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import `in`.atm1504.corona_distance_measure.ui.main.MainFragment
+import `in`.atm1504.corona_distance_measure.main.MainFragment
 
 class MainActivity : AppCompatActivity() {
 
