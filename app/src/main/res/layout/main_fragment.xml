@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FC6C29"
+    android:orientation="vertical"
+    tools:context=".ui.main.MainFragment">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background=""
+        android:padding="5dp"
+        android:text="@string/distane_warning_app"
+        android:textColor="#fff"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="@string/available_bluetooths"
+        android:textColor="#fff"
+        android:textSize="@dimen/text_size_moderate"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/showAllDevices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="#fff"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:textSize="@dimen/text_size_normal"
+        tools:text="test" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="@string/warning_bluetooths"
+        android:textColor="#fff"
+        android:textSize="@dimen/text_size_moderate"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/warningDevice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="#fff"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:textSize="@dimen/text_size_normal"
+        tools:text="test" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
